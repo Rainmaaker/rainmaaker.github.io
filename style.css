@@ -36,7 +36,7 @@ html {
   margin-bottom: 20px;
 }
 .firstleft {
-  background: url(https://sm.ign.com/t/ign_hu/screenshot/default/hayden-christensen-1-3drv1280_4wbm.1280.jpg); 
+  background: url(/images/anakin.png); 
    background-repeat: no-repeat;
   background-size: cover;
     background-position: center;
