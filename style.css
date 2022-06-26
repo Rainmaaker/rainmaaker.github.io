@@ -1,0 +1,197 @@
+html {  
+  margin: auto;
+  width: 500px;
+  margin-top: 0;
+  padding: 0;
+  line-height: 1.5;
+  display: block;
+  font-family: 'Quantico', sans-serif;
+  font-size: 12px; 
+  color: DarkSlateGrey;
+  background: OldLace;
+  scroll-padding-top: 10px;
+  
+}
+    header {
+  background-color: DarkSlateGrey;
+  color: OldLace;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center; 
+  top: 0;
+  border-radius: 5px;
+  border: 2px solid OldLace;
+  position: fixed;
+  width: 400px;
+  margin: auto;
+  z-index: 99;
+}
+.first {
+  margin-top: 40px;
+  display: flex;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.firstleft {
+  background: url(https://sm.ign.com/t/ign_hu/screenshot/default/hayden-christensen-1-3drv1280_4wbm.1280.jpg); 
+   background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;
+   position: relative;
+  line-height: 1.2;
+  flex: 2.5;
+ 
+  border-radius: 5px;
+  text-shadow: 2px 2px 
+  
+
+}
+.firstright {
+  flex: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+.firstleft h2 {
+  position: relative;
+  top: 140px;
+  left: px;
+  font-size: 14px;
+  color: OldLace;
+  font-family: 'Quantico', sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 1px #OldLace;
+	text-shadow: 2px 2px 4px DarkSlateGrey;
+ 
+
+  
+}
+
+.second {
+  display: flex;
+  height: ;
+  background: ;
+  margin-bottom: 20px;
+}
+
+.secondleft {
+  flex: 2.5;
+  background: DarkSlateGrey;
+
+
+}
+.secondright {
+  flex: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+    
+}
+
+.third {
+  display: flex;
+  height: ;
+  background: ;
+  margin-bottom: 20px;
+}
+
+.thirdleft {
+  flex: 2.5;
+  background: DarkSlateGrey;
+}
+
+.thirdright {
+  flex: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+ 
+}
+
+.forth {
+  display: flex;
+  height: ;
+  margin-bottom: 20px;
+}
+
+.forthleft {
+  flex: 2.5;
+  background: DarkSlateGrey;
+}
+.forthright {
+  flex: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+blockquote {
+font-family: 'Permanent Marker', cursive;
+  background-color: DarkSlateGrey;
+  color: OldLace;
+  font-size: 30px;
+  padding: 20px;
+  padding-left: 30px;
+  position: relative;
+  width: ;
+  margin: 0; 
+  margin-bottom: 30px;
+  
+  }
+
+blockquote::before {
+  content: '”';
+  position: absolute;
+  top: -45px;
+  left: 10px;
+  font-size: 60px;
+  -moz-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -ms-transform: scale(-1, -1);
+   transform: scale(-1, -1);
+  
+}
+
+.paragraph {
+  font-family: 'Patrick Hand', cursive;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  text-transform: uppercase;  
+}
+
+li {
+  padding-left: 20px
+}
+
+.smaller {
+  font-size: 10px
+}
+
+.noafter {
+  margin-bottom: 0
+}
+
+.nobefore {
+  margin-top: 0
+}
+
+footer .paragraph{
+  margin-top: 30px
+}
+
+a {
+  color: OldLace;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.07em;
+  text-decoration: 0
+  
+}
+a:hover {
+  color: cyan;
+  text-decoration: underline
+}
